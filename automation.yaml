@@ -1,0 +1,12 @@
+alias: start script stromzaehler
+description: stromzaehler.sh
+trigger:
+  - platform: homeassistant
+    event: start
+  - platform: time_pattern
+    minutes: /15
+condition: []
+action:
+  - service: shell_command.stromzaehler_script
+    data: {}
+mode: single

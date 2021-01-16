@@ -1,0 +1,8 @@
+type: entities
+entities:
+  - entity: sensor.zahlerstand
+footer:
+  type: graph
+  entity: sensor.zahlerstand
+  hours_to_show: 24
+  detail: 1

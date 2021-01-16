@@ -1,0 +1,2 @@
+shell_command:
+  stromzaehler_script: /bin/bash /config/scripts/stromzaehler.sh
